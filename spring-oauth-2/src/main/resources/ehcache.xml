@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+	updateCheck="true">
+	
+	<diskStore path="java.io.tmpdir" />
+
+	<defaultCache 
+	maxElementsInMemory="100000" 
+	eternal="true"
+	timeToIdleSeconds="120" 
+	timeToLiveSeconds="120" 
+	overflowToDisk="true" />
+	
+    <!-- Place configuration for your caches following -->
+	<!-- <cache name="com.wingmoney.model.SysEnumeration"
+        maxElementsInMemory="200"
+        eternal="true"
+        timeToIdleSeconds="0"
+        timeToLiveSeconds="0"
+        overflowToDisk="false"
+	/> -->
+	
+		
+</ehcache>
